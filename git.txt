@@ -10,68 +10,17 @@ git remote add origin https://github.com/jlokesh1406/Node1.js.git
 git branch -M main
 git push -u origin main
 
-To manage your Git repository with the steps you mentioned, you would follow this process:
 
-1. **Delete a Folder and Commit**
+-----------------------------------------------------------------------------------------------------------
+---STEPS : GITHUB FILES UPLOAD--
+git init
+git status
+git add .
+git status
+git commit -m  "--1lokesh1--"
 
-   - **Delete the Folder:**
-     ```bash
-     rm -rf path/to/folder-/
-     ```
-   
-   - **Commit the Deletion:**
-     ```bash
-     git add .
-     git commit -m "Deleted folder path/to/folder"
-     ```
+git remote add origin https://github.com/jlokesh1406/Node1.js.git
+git branch -M main
+git push -u origin main
 
-2. **Push the Changes to GitHub:**
-   ```bash
-   git push
-   ```
-
-3. **Delete a File and Commit**
-
-   - **Delete the File:**
-     ```bash
-     rm path/to/file
-     ```
-   
-   - **Commit the Deletion:**
-     ```bash
-     git add .
-     git commit -m "Deleted file path/to/file"
-     ```
-
-4. **Push the Changes to GitHub:**
-   ```bash
-   git push
-   ```
-
-### Summary of Commands
-
-Here’s a consolidated list of the commands you would use:
-
-1. **Delete a Folder:**
-   ```bash
-   rm -rf path/to/folder
-   git add .
-   git commit -m "Deleted folder path/to/folder"
-   git push
-   ```
-
-2. **Delete a File:**
-   ```bash
-   rm path/to/file
-   git add .
-   git commit -m "Deleted file path/to/file"
-   git push
-   ```
-
-### Notes:
-
-- **Ensure Correct Paths:** Double-check the paths to the folder and file to ensure you are deleting the correct items.
-- **Commit Messages:** Use descriptive commit messages for clarity in your Git history.
-- **Verify Deletions:** After pushing, verify on GitHub or using `git status` to ensure the deletions have been correctly applied.
-
-By following these steps, you will delete the specified folder and file, commit those changes, and push them to your remote repository on GitHub.
+-----------------------------------------------------------------------------------------------------------
